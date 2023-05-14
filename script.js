@@ -38,6 +38,13 @@ window.onload=function(){
  header= document.getElementById("navHeader");
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
+        alert(document.getElementById("certifications").innerHTML);
+  alert(document.getElementById("about-me").innerHTML);
+  var mainArea=document.getElementById("content-area");
+  mainArea.innerHTML=document.getElementById("about-me").innerHTML;
+      alert(document.getElementById("certifications").innerHTML);
+  alert(document.getElementById("about-me").innerHTML);
+
 }
 // Get the offset position of the navbar
  
@@ -53,6 +60,9 @@ function scrollHeader() {
 
 var totalScroll=0;
 function extraScroll(elementId) {
+      alert(document.getElementById("certifications").innerHTML);
+  alert(document.getElementById("about-me").innerHTML);
+  
     var targetElement=document.getElementById(elementId);
     //targetElement.style.top=targetElement.style.top+scrollSize;
     var contentArea=document.getElementById("content-area");  
