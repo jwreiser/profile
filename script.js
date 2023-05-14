@@ -55,8 +55,8 @@ var totalScroll=0;
 function extraScroll(elementId) {
     var targetElement=document.getElementById(elementId);
     //targetElement.style.top=targetElement.style.top+scrollSize;
-    var contentArea=document.getElementById("content-area");
-    alert(contentArea);
+    var contentArea=document.getElementById("content-area");  
+    alert('1 '+contentArea.innerHTML);
     alert(targetElement);
     contentArea.innerHTML=targetElement.innerHTML;
   }
