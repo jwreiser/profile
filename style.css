@@ -141,7 +141,9 @@ body {
   }
   
   /* Skills */
-  
+  #skills{
+      visibility:none;
+}
   .all_skills {
     display: flex;
     flex-direction: row;
