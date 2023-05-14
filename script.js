@@ -59,8 +59,9 @@ function extraScroll(elementId) {
     var element = document.createElement("div");
     element.innerHTML=targetElement.innerHTML;
     element.id='currentContent';
-//  contentArea.appendChild(element);
-    window.dump('t ' + targetElement.innerHTML);
+ window.dump('t ' + targetElement.innerHTML);
     window.dump('c '+contentArea.innerHTML);
+   contentArea.appendChild(element);
+   
 //    contentArea.innerHTML=targetElement.innerHTML;
   }
