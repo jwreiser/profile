@@ -40,23 +40,44 @@ window.onload=function(){
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
   
-  console.log(document.getElementById("content-area").innerHTML);
-  console.log('a');
-  console.log(document.getElementById("content-area2").innerHTML);
-    console.log('a1');
-  console.log(document.getElementById("certifications").innerHTML);
+  console.log(document.getElementById("content-area2").innerHTML);   
   console.log('b');
   console.log(document.getElementById("about-me").innerHTML);
+   console.log('b1');
+  console.log(document.getElementById("skills").innerHTML);
+   console.log('b2');
+    console.log(document.getElementById("projects").innerHTML);
+   console.log('b3');
+    console.log(document.getElementById("certifications").innerHTML);
+   console.log('b4');
+  console.log(document.getElementById("recommendations").innerHTML);
+   console.log('b5');
+  console.log(document.getElementById("contact").innerHTML);
+     
+    console.log('c');
   var mainArea=document.getElementById("content-area2");
-  console.log('c');
-  mainArea.innerHTML=document.getElementById("about-me").innerHTML;
+  
   console.log('d');
-  console.log(document.getElementById("certifications").innerHTML);
-  console.log('e');
-   console.log(document.getElementById("about-me").innerHTML);
+  mainArea.innerHTML=document.getElementById("about-me").innerHTML;
+  
+console.log('a');
+   console.log(document.getElementById("content-area2").innerHTML);   
+  console.log('a0');
+  console.log(document.getElementById("about-me").innerHTML);
+   console.log('a1');
+  console.log(document.getElementById("skills").innerHTML);
+   console.log('a2');
+    console.log(document.getElementById("projects").innerHTML);
+   console.log('a3');
+    console.log(document.getElementById("certifications").innerHTML);
+   console.log('a4');
+  console.log(document.getElementById("recommendations").innerHTML);
+   console.log('a5');
+  console.log(document.getElementById("contact").innerHTML);
+      console.log('a6');
+  
 
 }
-// Get the offset position of the navbar
  
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
