@@ -54,14 +54,13 @@ window.onload=function(){
    console.log('b5');
   console.log(document.getElementById("contact").innerHTML);
      
-    console.log('c');
   var mainArea=document.getElementById("content-area");
-  
-  console.log('d');
+   console.log('e');
   var aboutMe=document.getElementById("about-me");
+ console.log(aboutMe);
   console.log('e');
-  console.log(aboutMe.style.visibility);
-  aboutMe.style.visibility='visible';
+  console.log(document.getElementById("about-me").style.visibility);
+  document.getElementById("about-me").style.visibility='visible';
   console.log('f');  
   mainArea.innerHTML=aboutMe.innerHTML;
   
