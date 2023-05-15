@@ -62,7 +62,7 @@ window.onload=function(){
   console.log(document.getElementById("about-me").style.visibility);
   document.getElementById("about-me").style.visibility='visible';
   console.log('f');  
-  mainArea.innerHTML=aboutMe.innerHTML;
+  //mainArea.innerHTML=aboutMe.innerHTML;
   
 console.log('a');
    console.log(document.getElementById("content-area").innerHTML);   
