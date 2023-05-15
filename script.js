@@ -58,15 +58,15 @@ window.onload=function(){
   var mainArea=document.getElementById("content-area");
   
   console.log('d');
-  var aboutMe=document.getElementById("about-me")
+  var aboutMe=document.getElementById("about-me");
   console.log('e');
   console.log(aboutMe.style.visibility);
-  aboutMe.style.visibility=visible;
+  aboutMe.style.visibility='visible';
   console.log('f');  
   mainArea.innerHTML=aboutMe.innerHTML;
   
 console.log('a');
-   console.log(document.getElementById("content-area2").innerHTML);   
+   console.log(document.getElementById("content-area").innerHTML);   
   console.log('a0');
   console.log(document.getElementById("about-me").innerHTML);
    console.log('a1');
