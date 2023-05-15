@@ -67,6 +67,7 @@ window.onload=function(){
 console.log('a');
    console.log(document.getElementById("content-area").innerHTML);   
   console.log('a0');
+      document.getElementById('about-me').style.visibility = 'visible'
   console.log(document.getElementById("about-me").innerHTML);
    console.log('a1');
   console.log(document.getElementById("skills").innerHTML);
