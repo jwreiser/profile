@@ -305,6 +305,7 @@ button:hover {
     text-align: center;
     width: fit-content;
     padding: 0.5em;
+    margin: 1em;
     background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
