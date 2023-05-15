@@ -207,6 +207,29 @@ var certifications=`
         </div>
       </section>
 `;
+
+var social=`<section class="social" id="social">
+    <h2>
+        Social Responsibility
+    </h2>
+    <div style="clear:both;"></div>
+   <div id="social-container" class="social-container">
+    <div class="social-card">
+      <h3>AmeriCorps/
+        Student Conservation Association Estuary Steward</h3>
+    </div>
+    <div class="social-card">
+      <h3> Boy Scouts (Eagle, Sr. Patrol Leader)</h3>
+    </div>
+    <div class="social-card">
+      <h3>Community Emergency Response Team (CERT)</h3>
+        </div>
+    <div class="social-card">
+      <h3>Red Cross Volunteer</h3>
+    </div>
+</div>
+</section>
+`;
 var totalScroll=0;
 function switchTabs(elementId) {
   switch(elementId){
@@ -221,6 +244,9 @@ function switchTabs(elementId) {
       break;
       case "certifications":
       document.getElementById("content-area").innerHTML=certifications;
+      break;
+      case "social":
+      document.getElementById("content-area").innerHTML=social;
       break;
   }//switch
 }//function 
