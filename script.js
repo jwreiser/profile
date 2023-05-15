@@ -54,20 +54,17 @@ window.onload=function(){
    console.log('b5');
   console.log(document.getElementById("contact").innerHTML);
      
-  var mainArea=document.getElementById("content-area");
    console.log('e');
-  var aboutMe=document.getElementById("about-me");
- console.log(aboutMe);
-  console.log('e');
-  console.log(document.getElementById("about-me").style.visibility);
-  document.getElementById("about-me").style.visibility='visible';
-  console.log('f');  
-  //mainArea.innerHTML=aboutMe.innerHTML;
+  document.getElementById("about-me").style.visibility='hidden';
+   console.log('f');
+  document.getElementById('about-me').style.visibility = 'visible'
+   console.log('g');
+  document.getElementById("content-area").innerHTML=document.getElementById("about-me").innerHTML;
+  document.getElementById("about-me").style.visibility='hidden';
   
 console.log('a');
    console.log(document.getElementById("content-area").innerHTML);   
   console.log('a0');
-      document.getElementById('about-me').style.visibility = 'visible'
   console.log(document.getElementById("about-me").innerHTML);
    console.log('a1');
   console.log(document.getElementById("skills").innerHTML);
