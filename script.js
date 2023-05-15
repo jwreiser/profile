@@ -55,7 +55,7 @@ var totalScroll=0;
 function extraScroll(elementId) {
   alert('a')
   document.getElementById(elementId).style.visibility = 'visible'
-  document.getElementById("content-area").innerHTML=document.getElementById("about-me").innerHTML;
+  document.getElementById("content-area").innerHTML=document.getElementById(elementId).innerHTML;
   document.getElementById(elementId).style.visibility='hidden';
 
   
