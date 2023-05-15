@@ -40,7 +40,7 @@ window.onload=function(){
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
   
-  console.log(document.getElementById("content-area2").innerHTML);   
+  console.log(document.getElementById("content-area").innerHTML);   
   console.log('b');
   console.log(document.getElementById("about-me").innerHTML);
    console.log('b1');
@@ -55,10 +55,15 @@ window.onload=function(){
   console.log(document.getElementById("contact").innerHTML);
      
     console.log('c');
-  var mainArea=document.getElementById("content-area2");
+  var mainArea=document.getElementById("content-area");
   
   console.log('d');
-  mainArea.innerHTML=document.getElementById("about-me").innerHTML;
+  var aboutMe=document.getElementById("about-me")
+  console.log('e');
+  console.log(aboutMe.style.visibility);
+  aboutMe.style.visibility=visible;
+  console.log('f');  
+  mainArea.innerHTML=aboutMe.innerHTML;
   
 console.log('a');
    console.log(document.getElementById("content-area2").innerHTML);   
