@@ -309,6 +309,7 @@ button:hover {
   #social{
       margin-top: 30px;
       margin-left: 60px;
+      visibility:hidden;
     }
 
   .social-container {
