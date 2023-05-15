@@ -8,6 +8,24 @@ body {
     justify-content: center;
   }
 
+/* header scrolling */
+
+ #navHeader{
+	 padding-bottom:16px;
+ }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content{
+  padding-top: 562px;
+}
+
+  .content-container {
+    padding:16px;
+  }
   /* Buttons */
   
   button {
@@ -68,16 +86,7 @@ button:hover {
       width: 100%;
    
   }
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-.sticky + .content-container {
-  padding-top: 319px;
-}
   #nav-table {
     background-color:  black;   
     width: 100%;
@@ -137,9 +146,7 @@ button:hover {
   .about-container {
     display: flex;
   }
-  .content-container {
-    display: flex;
-  }
+
   
   /* About Me */
   
@@ -281,7 +288,7 @@ button:hover {
       margin-top: 30px;
       margin-left: 60px;
       margin-right: 60px;
-       padding-right: 500px;
+       padding-right: 50px;
     }
       
     .social-card {
