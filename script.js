@@ -171,8 +171,44 @@ var projects=`
     </div>
     </section>
 `;
+
+var certifications=`
+<section id="certifications">
+        <h2>Certifications</h2>
+        <div style="clear:both;"></div>
+  
+        <div class="all_certifications">
+          <div class="certification">
+            <a href="https://coursera.org/share/1246bc4d29ce578c75109ad8633417a1"> Cloud Technical Essentials</a>
+            <ul>
+                <li>Security</li> 
+                <li>Compute</li>
+                <li>Networking</li>
+                <li>Storage</li>
+                <li>Databases</li>
+                <li>Monitoring</li> 
+                <li>Optimization</li>
+              </ul>
+          </div>  
+          <div class="certification">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FZLJKQ9FTS4N">Spring Framework Specialization 
+                (4 courses)</a>
+            <ul>
+                <li>Spring AOP</li> 
+                <li>Spring Cloud</li>
+                <li>Spring Data</li>
+                <li>Transactions</li>
+                <li>Spring MVC</li>
+                <li>Spring Boot</li> 
+                <li>Spring Core</li>
+              </ul>
+          </div>  
+          
+        </div>
+      </section>
+`;
 var totalScroll=0;
-function extraScroll(elementId) {
+function switchTabs(elementId) {
   switch(elementId){
     case "about-me":
       document.getElementById("content-area").innerHTML=aboutMe;
@@ -182,6 +218,9 @@ function extraScroll(elementId) {
       break;
      case "projects":
       document.getElementById("content-area").innerHTML=projects;
+      break;
+      case "certifications":
+      document.getElementById("content-area").innerHTML=certifications;
       break;
   }//switch
 }//function 
