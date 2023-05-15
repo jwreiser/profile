@@ -365,7 +365,6 @@ body {
     text-align: center;
     position: fixed;
     /* padding: 30px; */
-    visibility: hidden;
   }
   
   .popup img {
