@@ -74,6 +74,10 @@ button:hover {
   top: 0;
   width: 100%;
 }
+
+.sticky + .content-container {
+  padding-top: 9px;
+}
   #nav-table {
     background-color:  black;   
     width: 100%;
