@@ -207,7 +207,43 @@ var certifications=`
         </div>
       </section>
 `;
-
+var recommendations=`
+<section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Justin and I worked together for a year and a half, and He is dedicated and hardworking. Justin has a good understanding of OOP principles and picks up new patterns, technologies and concepts quickly and well. Justin also dedicates himself to the success of those around him to become their personal best.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I worked on the same project with Justin for about a year. Justin completed his tasks and did them well. He was also willing to help out other team members in times of need. Justin took initiative to research new tools, and continue learning for his own development. Justin was able to bring concerns to the team in a productive way. I feel that he would be an asset to any team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had the pleasure of working with Justin for 5 years at the TCI, collaborating on several projects. Justin is a very detailed oriented Java developer and always thinks out of the box solutions to solve a problem. I find he can work either independently or as an integrated team member. Justin's knowledge about Credit Bureaus is incredible and he will be a great asset to any team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            I worked with Justin for about six years at TCI, the last year and a half as his manager. During that time he was one of the main developers for critical components in the product that allowed customers to write business rules for loan applications based on credit report attributes. He also spear-headed two new projects: a new testing framework with UI to allow customers and QA to more efficiently perform UAT, and an analysis tool that would detect and report on customer configuration errors. He has strong technical proficiency and a thoughtful and inquisitive nature which was a large plus for my team and the product. Finally he was always helpful and never hesitated in aiding more junior engineers when needed.
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            Justin is a great asset to the team, who have been working with in dev department for many years. He is very professional and always maintains a positive attitude. He responded to problems without getting angry or frustrated. His most outstanding “value” from what I have seen is the attitude towards continuous improvement.   <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            I have closely worked with Justin at TCI, where we developed and maintained the company's flagship Loan Origination SaaS offering: DecisionLender. He is highly proficient in Java and software engineering best practices. In addition he is really good at understanding business requirements and can express them in a techie friendly way. He was my to go person when I needed to understand domain specific topics. In addition he is a friendly person and can go above and beyond his responsibilities to do the right thing. 
+          </div>
+  
+      </div>
+    </section>
+`;
 var social=`<section class="social" id="social">
     <h2>
         Social Responsibility
@@ -246,7 +282,12 @@ function switchTabs(elementId) {
       document.getElementById("content-area").innerHTML=certifications;
       break;
       case "social":
+      alert('social');
       document.getElementById("content-area").innerHTML=social;
+      break;
+      case "social":
+      alert('recommendations');
+      document.getElementById("content-area").innerHTML=recommendations;
       break;
   }//switch
 }//function 
