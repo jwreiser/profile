@@ -1,30 +1,3 @@
-function addRecommendation() {
-  // Get the message of the new recommendation
-  let recommendation = document.getElementById("new_recommendation");
-  // If the user has left a recommendation, display a pop-up
-  if (recommendation.value != null && recommendation.value.trim() != "") {
-    console.log("New recommendation added");
-    //Call showPopup here
-
-    // Create a new 'recommendation' element and set it's value to the user's message
-    var element = document.createElement("div");
-    element.setAttribute("class","recommendation");
-    element.innerHTML = "\<span\>&#8220;\</span\>" + recommendation.value + "\<span\>&#8221;\</span\>";
-    // Add this element to the end of the list of recommendations
-    document.getElementById("all_recommendations").appendChild(element); 
-    
-    // Reset the value of the textarea
-    recommendation.value = "";
-  }
-}
-
-function showPopup(bool) {
-//  if (bool) {
-    document.getElementById('popup').style.visibility = 'visible'
-  /*} else {
-    document.getElementById('popup').style.visibility = 'hidden'
-  }*/
-}
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {scrollHeader()};
@@ -172,41 +145,6 @@ var projects=`
     </section>
 `;
 
-var certifications=`
-<section id="certifications">
-        <h2>Certifications</h2>
-        <div style="clear:both;"></div>
-  
-        <div class="all_certifications">
-          <div class="certification">
-            <a href="https://coursera.org/share/1246bc4d29ce578c75109ad8633417a1"> Cloud Technical Essentials</a>
-            <ul>
-                <li>Security</li> 
-                <li>Compute</li>
-                <li>Networking</li>
-                <li>Storage</li>
-                <li>Databases</li>
-                <li>Monitoring</li> 
-                <li>Optimization</li>
-              </ul>
-          </div>  
-          <div class="certification">
-            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FZLJKQ9FTS4N">Spring Framework Specialization 
-                (4 courses)</a>
-            <ul>
-                <li>Spring AOP</li> 
-                <li>Spring Cloud</li>
-                <li>Spring Data</li>
-                <li>Transactions</li>
-                <li>Spring MVC</li>
-                <li>Spring Boot</li> 
-                <li>Spring Core</li>
-              </ul>
-          </div>  
-          
-        </div>
-      </section>
-`;
 var recommendations=`
 <section id="recommendations">
       <h2>Recommendations</h2>
@@ -265,6 +203,41 @@ var social=`<section class="social" id="social">
     </div>
 </div>
 </section>
+`;
+var certifications=`
+<section id="certifications">
+        <h2>Certifications</h2>
+        <div style="clear:both;"></div>
+  
+        <div class="all_certifications">
+          <div class="certification">
+            <a href="https://coursera.org/share/1246bc4d29ce578c75109ad8633417a1"> Cloud Technical Essentials</a>
+            <ul>
+                <li>Security</li> 
+                <li>Compute</li>
+                <li>Networking</li>
+                <li>Storage</li>
+                <li>Databases</li>
+                <li>Monitoring</li> 
+                <li>Optimization</li>
+              </ul>
+          </div>  
+          <div class="certification">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FZLJKQ9FTS4N">Spring Framework Specialization 
+                (4 courses)</a>
+            <ul>
+                <li>Spring AOP</li> 
+                <li>Spring Cloud</li>
+                <li>Spring Data</li>
+                <li>Transactions</li>
+                <li>Spring MVC</li>
+                <li>Spring Boot</li> 
+                <li>Spring Core</li>
+              </ul>
+          </div>  
+          
+        </div>
+      </section>
 `;
 var totalScroll=0;
 function switchTabs(elementId) {
