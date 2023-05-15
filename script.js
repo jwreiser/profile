@@ -18,8 +18,8 @@ window.onload=function(){
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function scrollHeader() {
- console.log('stickyLimit '+stickyLimit);
-  if (window.pageYOffset > sticky) {
+ console.log('stickyLimit '+stickyLimit+' '+window.pageYOffset);
+  if (window.pageYOffset > stickyLimit) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
