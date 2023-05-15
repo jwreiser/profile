@@ -47,7 +47,7 @@ window.onload=function(){
   console.log(document.getElementById("certifications").innerHTML);
   console.log('b');
   console.log(document.getElementById("about-me").innerHTML);
-  var mainArea=document.getElementById("content-area");
+  var mainArea=document.getElementById("content-area2");
   console.log('c');
   mainArea.innerHTML=document.getElementById("about-me").innerHTML;
   console.log('d');
