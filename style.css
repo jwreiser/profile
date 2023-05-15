@@ -76,7 +76,7 @@ button:hover {
 }
 
 .sticky + .content-container {
-  padding-top: 119px;
+  padding-top: 319px;
 }
   #nav-table {
     background-color:  black;   
@@ -281,12 +281,13 @@ button:hover {
       margin-top: 30px;
       margin-left: 60px;
       margin-right: 60px;
+       padding-right: 500px;
     }
       
     .social-card {
       margin: 0 15px 15px 30px;
     padding-bottom: 5px;
-    padding-right: 5px;
+    padding-right: 500px;
     border: 1px solid cadetblue;
       border-radius: 2%;
     }
@@ -294,6 +295,7 @@ button:hover {
     .social-card h3 {
       font-size: 15px;
       margin-left: 30px;
+        padding-right: 500px;
     }
     
   /* Recommendations */
