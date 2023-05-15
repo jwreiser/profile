@@ -22,7 +22,7 @@ function scrollHeader() {
     var location=window.scrollY + window.innerHeight;
     //var newElement=document.createElement("div");
    document.getElementById('navFooter').style.visibility='visible';
-   document.getElementById('navFooter').bottom=location+"px";
+   document.getElementById('navFooter').bottom="200px";
   } else {
    /*
     document.getElementById('navHeader').style.top=0;
