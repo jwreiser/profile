@@ -8,39 +8,6 @@ body {
     justify-content: center;
   }
 
-/* header scrolling */
-
- #navHeader{
-	 padding-bottom:16px;
- }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content{
-  padding-top: 562px;
-}
-
-  .content-container {
-    padding:16px;
-  }
-  /* Buttons */
-  
-  button {
-    background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
-    display: block;
-    border-radius: 6px;
-    text-align: center;
-    margin: 50px;
-    padding: 10px;
-    width: 2in;
-    font-size: 20px;
-  }
-
 button:hover {
     background-color: #7600bc;
     border: 1px solid #7600bc;
@@ -50,7 +17,6 @@ button:hover {
     text-align: center;
     cursor: pointer;
   }
-
   /* Navigation Bar */
  
   nav{
@@ -86,7 +52,12 @@ button:hover {
       width: 100%;
    
   }
-
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
   #nav-table {
     background-color:  black;   
     width: 100%;
@@ -146,13 +117,16 @@ button:hover {
   .about-container {
     display: flex;
   }
-
+  .content-container {
+    display: flex;
+  }
   
   /* About Me */
   
   #about-me {
     display: flex;
     align-items: center;
+      visibility:visible;
   }
   #about-image {
     display: flex;
@@ -186,6 +160,9 @@ button:hover {
   }
   
   /* Skills */
+  #skills{
+      visibility:hidden;
+}
    .all_skills {
     display: flex;
     flex-direction: row;
@@ -228,6 +205,9 @@ button:hover {
 
   
   /* Projects */
+  #projects{
+      visibility:hidden;
+}
   .projects-container {
     margin-top: 30px;
     margin-left: 60px;
@@ -255,6 +235,9 @@ button:hover {
   }   
   
   /*certifications*/
+  #certifications{
+       visibility:hidden;
+}
   .all_certifications {
       display: flex;
       flex-direction: row;
@@ -281,19 +264,46 @@ button:hover {
       text-align: left;
     }
     
-
- 
-  /* Social */ 
-     .social-container {
+  /* Projects */
+  #projects{
+       visibility:hidden;
+}
+  .projects-container {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  
+  .project-card {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+    border: 1px solid cadetblue;
+      border-radius: 2%;
+  }
+  
+  .project-card h3 {
+    font-size: 17px;
+    margin-left: 30px;
+  }
+  
+  .project-card li {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  /* Social */
+  #social{
       margin-top: 30px;
       margin-left: 60px;
-      margin-right: 60px;
+    }
+
+  .social-container {
+      margin-top: 30px;
+      margin-left: 60px;
     }
       
     .social-card {
       margin: 0 15px 15px 30px;
     padding-bottom: 5px;
-    padding-right: 5px;
     border: 1px solid cadetblue;
       border-radius: 2%;
     }
@@ -301,28 +311,31 @@ button:hover {
     .social-card h3 {
       font-size: 15px;
       margin-left: 30px;
-        padding-right: 500px;
     }
     
   /* Recommendations */
+#recommendations{
+     visibility:hidden;
+}
   .all_recommendations {
     display: flex;
     align-items: center;
     margin-left: 1in;
-     flex-direction: row;
+    flex-direction: row;
     flex-flow: wrap;
     padding: 20px;
   }
   
   .recommendation {
     font-style: italic;
-    text-align: center;
-    width: fit-content;
-    padding: 0.5em;
-    margin: 1em;
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
     background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
     border:1px solid gray;
     font-size: 18px;
     height:fit-content;
@@ -413,5 +426,19 @@ button:hover {
     width: 50%;
   }
   
+  /* Buttons */
+  
+  button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+  }
   
   
