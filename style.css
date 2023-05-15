@@ -105,7 +105,10 @@ body {
   
   /* Used in the About Me sections */
   
-  .container {
+  .about-container {
+    display: flex;
+  }
+  .content-container {
     display: flex;
   }
   
