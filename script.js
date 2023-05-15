@@ -51,9 +51,9 @@ function scrollHeader() {
   }
 }
 
-var aboutMe='\<section id="about-me" class="about-container"\> \</section\>';
+var aboutMe='\<section id="about-me" class="about-container"\> \<div id="about-image"\> \</section\>';
 /*
-      \<div id="about-image"\>
+     
         \<img src="https://res.cloudinary.com/da81thphx/image/upload/v1683979645/profile_nn5wab.gif" class="profile_image"/\>
       </div>
 
