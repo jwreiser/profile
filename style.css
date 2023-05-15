@@ -271,14 +271,8 @@ button:hover {
     
 
  
-  /* Social */
-  #social{
-      margin-top: 30px;
-      margin-left: 60px;
-      visibility:hidden;
-    }
-
-  .social-container {
+  /* Social */ 
+     .social-container {
       margin-top: 30px;
       margin-left: 60px;
     }
