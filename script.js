@@ -19,9 +19,12 @@ window.onload=function(){
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function scrollHeader() {
   if (window.pageYOffset > stickyLimit) {
-    header.classList.add("sticky");
+    var location=window.scrollY + window.innerHeight;
+   document.getElementById('navHeader').style.bottom=location;
+   document.getElementById('navHeader').style.top='auto';
   } else {
-    header.classList.remove("sticky");
+    document.getElementById('navHeader').style.top=0;
+   document.getElementById('navHeader').style.bottom='auto';
   }  
 }
 
