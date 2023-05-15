@@ -35,7 +35,7 @@ button:hover {
 
 /* footer */
 #navFooter{
-    position:absolute;
+    position:fixed;
 }
   /* Navigation Bar */
  
