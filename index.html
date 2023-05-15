@@ -1,63 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Justin Reiser - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-            Justin Reiser
-          <div class="contact_info">
-            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1684174979/envelope_rtanmn.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-             jreiser.is@gmail.com
-           </div>
-            <div style="clear:both;"></div>
-            <div class="contact_info">
-               <img src="https://res.cloudinary.com/da81thphx/image/upload/v1684174980/phone_yyq1kg.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-               +6317862315
-            </div>
-        </div>
-        <header id="navHeader">
-        <div class="topdiv">
-            <table id="nav-table">
-                <tr>
-                    <td><a class="topmenu" onclick="switchTabs('about-me')">About Me</a></td>
-                    <td><a class="topmenu" onclick="switchTabs('skills')">Skills</a></td>
-                    <td><a class="topmenu" onclick="switchTabs('projects')">Projects</a></td>
-                </tr>
-                <tr>
-                    <td class="row2"><a class="topmenu" onclick="switchTabs('certifications')">Certifications</a></td>
-                    <td class="row2"><a class="topmenu" onclick="switchTabs('social')">Social Responsibility</a></td>
-                    <td class="row2"><a class="topmenu" onclick="switchTabs('recommendations')">Recommendations</a></td>
-                </tr>
-            </table>
-        </header>
-        </div>
-      </div>    
-    </nav>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content-area {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content-area {
+  padding-top: 102px;
+}
+</style>
+</head>
+<body>
+
+<div class="top-container">
+  <h1>Scroll Down</h1>
+  <p>Scroll down to see the sticky effect.</p>
+</div>
+
+<div class="header" id="myHeader">
+  <h2>My Header</h2>
+</div>
+
   <div id="content-area" class="content-container">
 	    <p >
-            
+            aaaaaaaaaaaaaaaaaaaa
 	    </p>
-    </div> 	 
-	    
-        <div class="topdiv" style="visibility:hidden" id="navFooter" >
-            <table id="nav-table">
-                <tr>
-                    <td><a class="topmenu" onclick="switchTabs('about-me')">About Me</a></td>
-                    <td><a class="topmenu" onclick="switchTabs('skills')">Skills</a></td>
-                    <td><a class="topmenu" onclick="switchTabs('projects')">Projects</a></td>
-                </tr>
-                <tr>
-                    <td class="row2"><a class="topmenu" onclick="switchTabs('certifications')">Certifications</a></td>
-                    <td class="row2"><a class="topmenu" onclick="switchTabs('social')">Social Responsibility</a></td>
-                    <td class="row2"><a class="topmenu" onclick="switchTabs('recommendations')">Recommendations</a></td>
-                </tr>
-            </table>
-        </div>
-  </body>
+    </div> 	
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
 </html>
