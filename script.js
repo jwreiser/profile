@@ -222,10 +222,11 @@ function switchTabs(elementId) {
       document.getElementById("content-area").innerHTML=certifications;
       break;
       case "social":
+  console.log('social');
       document.getElementById("content-area").innerHTML=social;
-      break;
-      case "social":
-      alert('recommendations');
+      break;    
+      case "recommendations":
+    console.log('recommendations');
       document.getElementById("content-area").innerHTML=recommendations;
       break;
   }//switch
