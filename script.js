@@ -17,13 +17,11 @@ window.onload=function(){
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function scrollHeader() {
- /*
   if (window.pageYOffset > stickyLimit) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
-  }
-  */
+  }  
 }
 
 var aboutMe=`\<section id="about-me" class="about-container"\>
