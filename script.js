@@ -23,10 +23,13 @@ function scrollHeader() {
    console.log('location '+location);
    console.log('bottom '+document.getElementById('navHeader').style.bottom);
    document.getElementById('navHeader').style.bottom='100px';
+   document.getElementById('navHeader').style.position='absolute';
    document.getElementById('navHeader').style.top='auto';
   } else {
     document.getElementById('navHeader').style.top=0;
    document.getElementById('navHeader').style.bottom='auto';
+   document.getElementById('navHeader').style.position='fixed';
+   
   }  
 }
 
