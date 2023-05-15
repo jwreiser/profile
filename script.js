@@ -105,45 +105,45 @@ var skills=`
         </div>  
       </div>
     </section>`
+var certifications=`
+  <section id="certifications">
+        <h2>Certifications</h2>
+        <div style="clear:both;"></div>
+  
+        <div class="all_certifications">
+          <div class="certification">
+            <a href="https://coursera.org/share/1246bc4d29ce578c75109ad8633417a1"> Cloud Technical Essentials</a>
+            <ul>
+                <li>Security</li> 
+                <li>Compute</li>
+                <li>Networking</li>
+                <li>Storage</li>
+                <li>Databases</li>
+                <li>Monitoring</li> 
+                <li>Optimization</li>
+              </ul>
+          </div>  
+          <div class="certification">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FZLJKQ9FTS4N">Spring Framework Specialization 
+                (4 courses)</a>
+            <ul>
+                <li>Spring AOP</li> 
+                <li>Spring Cloud</li>
+                <li>Spring Data</li>
+                <li>Transactions</li>
+                <li>Spring MVC</li>
+                <li>Spring Boot</li> 
+                <li>Spring Core</li>
+              </ul>
+          </div>  
+          
+        </div>
+      </section>`;
 var projects=`
  <section class="projects" id="projects">
       <h2>
         Projects
-      </h2>
-      <div style="clear:both;"></div>
-
-        <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Neural Network Visualizer</h3>
-            <ul>
-              <li>Created pair of programs that use NEURON to simulate large neural networks. First program uses Java to generate a hoc program (NEURON's native language) using easy-to-understand input files that allow users not familiar with hoc to model neural networks. Second program uses C++/OpenGL to visualize how the neurons modeled in the previously mentioned program fire.</li>
-            </ul>
-          </div>
-          <div class="project-card">
-            <h3>Web Search Optimizer</h3>
-            <ul>
-              <li>Created program that allows users to simultaneously search several websites. Program concurrently visits individual websites and aggregates search results. Results are filtered and prioritized according to user input, allowing users to more efficiently parse search results.</li>
-            </ul>
-          </div>
-          <div class="project-card">
-            <h3>Scrapbook Builder</h3>
-            <ul>
-              <li>Created a tool to upload images to a website and then automatically display them</li>
-            </ul>
-          </div>
-          <div class="project-card">
-            <h3>Tetris Clone</h3>
-            <ul>
-              <li>Developed a Tetris Clone using C++</li>
-            </ul>
-          </div>
-          <div class="project-card">
-            <h3>Instant Messenger</h3>
-            <ul>
-              <li>Developed an application for message sending</li>
-            </ul>
-          </div>
-    </div>
+      </h2>   
     </section>
 `;
 
