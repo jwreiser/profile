@@ -141,7 +141,6 @@ button:hover {
   #about-me {
     display: flex;
     align-items: center;
-      visibility:hidden;
   }
   #about-image {
     display: flex;
