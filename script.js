@@ -18,19 +18,12 @@ window.onload=function(){
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function scrollHeader() {
-  if (window.pageYOffset > stickyLimit) {
-    var location=window.scrollY + window.innerHeight;
-    //var newElement=document.createElement("div");
-   document.getElementById('navFooter').style.visibility='visible';
-   document.getElementById('navFooter').bottom="20px";
+ console.log('stickyLimit '+stickyLimit);
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
   } else {
-   /*
-    document.getElementById('navHeader').style.top=0;
-   document.getElementById('navHeader').style.bottom='auto';
-   document.getElementById('navHeader').style.position='fixed';
-   */
-   document.getElementById('navFooter').style.visibility='hidden';
-  }  
+    header.classList.remove("sticky");
+  }
 }
 
 var aboutMe=`\<section id="about-me" class="about-container"\>
