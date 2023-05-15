@@ -174,9 +174,6 @@ button:hover {
   }
   
   /* Skills */
-  #skills{
-      visibility:hidden;
-}
    .all_skills {
     display: flex;
     flex-direction: row;
@@ -219,9 +216,6 @@ button:hover {
 
   
   /* Projects */
-  #projects{
-      visibility:hidden;
-}
   .projects-container {
     margin-top: 30px;
     margin-left: 60px;
@@ -249,9 +243,6 @@ button:hover {
   }   
   
   /*certifications*/
-  #certifications{
-       visibility:hidden;
-}
   .all_certifications {
       display: flex;
       flex-direction: row;
@@ -278,32 +269,8 @@ button:hover {
       text-align: left;
     }
     
-  /* Projects */
-  #projects{
-       visibility:hidden;
-}
-  .projects-container {
-    margin-top: 30px;
-    margin-left: 60px;
-  }
-  
-  
-  .project-card {
-    margin: 0 15px 15px 30px;
-    padding-bottom: 5px;
-    border: 1px solid cadetblue;
-      border-radius: 2%;
-  }
-  
-  .project-card h3 {
-    font-size: 17px;
-    margin-left: 30px;
-  }
-  
-  .project-card li {
-    font-size: 15px;
-    margin-left: 30px;
-  }
+
+ 
   /* Social */
   #social{
       margin-top: 30px;
@@ -329,9 +296,6 @@ button:hover {
     }
     
   /* Recommendations */
-#recommendations{
-     visibility:hidden;
-}
   .all_recommendations {
     display: flex;
     align-items: center;
