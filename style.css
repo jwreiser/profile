@@ -32,6 +32,11 @@ button:hover {
     text-align: center;
     cursor: pointer;
   }
+
+/* footer */
+#navFooter{
+    position:absolute;
+}
   /* Navigation Bar */
  
   nav{
