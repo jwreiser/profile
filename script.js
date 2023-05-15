@@ -41,14 +41,19 @@ window.onload=function(){
  scrollSize=header.offsetHeight;
   
   console.log(document.getElementById("content-area").innerHTML);
+  console.log('a');
+  console.log(document.getElementById("content-area2").innerHTML);
+    console.log('a1');
   console.log(document.getElementById("certifications").innerHTML);
+  console.log('b');
   console.log(document.getElementById("about-me").innerHTML);
   var mainArea=document.getElementById("content-area");
-  console.log('a');
+  console.log('c');
   mainArea.innerHTML=document.getElementById("about-me").innerHTML;
-  console.log('b');
-      alert(document.getElementById("certifications").innerHTML);
-  alert(document.getElementById("about-me").innerHTML);
+  console.log('d');
+  console.log(document.getElementById("certifications").innerHTML);
+  console.log('e');
+   console.log(document.getElementById("about-me").innerHTML);
 
 }
 // Get the offset position of the navbar
