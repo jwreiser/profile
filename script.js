@@ -52,15 +52,10 @@ function scrollHeader() {
 }
 
 var aboutMe=`\<section id="about-me" class="about-container"\>
--\<div id="about-image"\>
-  - \<img src="https://res.cloudinary.com/da81thphx/image/upload/v1683979645/profile_nn5wab.gif" class="profile_image"/\>
-    -</div>
-    -\</section\>`;
-/*
-     
-       
-
-      \<div id="about-text"\>
+\<div id="about-image"\>
+   \<img src="https://res.cloudinary.com/da81thphx/image/upload/v1683979645/profile_nn5wab.gif" class="profile_image"/\>
+    </div>
+    \<div id="about-text"\>
           \<h1\>
             Hi, I'm Justin Reiser 
           \</h1\>
@@ -69,7 +64,8 @@ var aboutMe=`\<section id="about-me" class="about-container"\>
             I am a back-end centric java developer with experience in Spring, Spring Boot, Spring MVC, Spring Data and hibernate. I am looking to leverage my skills to help people.
           </p\>
       \</div\>
-    */
+    \</section\>`;
+
 var totalScroll=0;
 function extraScroll(elementId) {
     document.getElementById("content-area").innerHTML=aboutMe;
