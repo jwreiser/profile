@@ -20,6 +20,8 @@ window.onload=function(){
 function scrollHeader() {
   if (window.pageYOffset > stickyLimit) {
     var location=window.scrollY + window.innerHeight;
+   console.log('location '+location);
+   console.log('bottom '+document.getElementById('navHeader').style.bottom);
    document.getElementById('navHeader').style.bottom=location;
    document.getElementById('navHeader').style.top='auto';
   } else {
