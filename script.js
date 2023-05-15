@@ -66,7 +66,78 @@ var aboutMe=`\<section id="about-me" class="about-container"\>
       \</div\>
     \</section\>`;
 
+var skills=`
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683980803/duke_Wave_w5turk.png"/>
+            <h6>Java</h6>
+            <p>16 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683981591/sql_kzdxjx.png"/>
+            <h6>SQL</h6>
+            <p>16 years experience</p>
+        </div>    
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683982657/hibernate_tecilw.svg"/>
+            <h6>Hibernate</h6>
+            <p>10 years experience</p>
+        </div>         
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683982895/webservices_jug483.svg"/>
+            <h6>RESTful web services</h6>
+            <p>4 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683983166/microservices_lyok2k.png"/>
+            <h6>Microservices</h6>
+            <p>2 years experience</p>
+        </div>    
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683981296/spring_j1vinh.gif"/>
+            <h6>Spring</h6>
+            <p>5 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683981296/spring_j1vinh.gif"/>
+            <h6>Spring Boot</h6>
+            <p>2 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683981296/spring_j1vinh.gif"/>
+            <h6>Spring MVC</h6>
+            <p>2 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://res.cloudinary.com/da81thphx/image/upload/v1683981296/spring_j1vinh.gif"/>
+            <h6>Spring Data</h6>
+            <p>2 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 year experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 year experience</p>
+        </div>  
+      </div>
+    </section>`
 var totalScroll=0;
 function extraScroll(elementId) {
-    document.getElementById("content-area").innerHTML=aboutMe;
-}
+  switch(elementId){
+    case "about-me":
+      document.getElementById("content-area").innerHTML=aboutMe;
+      break;
+    case "skills":
+      document.getElementById("content-area").innerHTML=skills;
+      break;
+  }//switch
+}//function 
