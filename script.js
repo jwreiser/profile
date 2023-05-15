@@ -34,11 +34,14 @@ var header;
 var stickyLimit;
 var scrollSize;
 var firstClick=true;
+
 window.onload=function(){
  header= document.getElementById("navHeader");
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
-        alert(document.getElementById("certifications").innerHTML);
+  
+  alert(document.getElementById("content-area").innerHTML);
+  alert(document.getElementById("certifications").innerHTML);
   alert(document.getElementById("about-me").innerHTML);
   var mainArea=document.getElementById("content-area");
   mainArea.innerHTML=document.getElementById("about-me").innerHTML;
