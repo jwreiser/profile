@@ -12,6 +12,7 @@ window.onload=function(){
  header= document.getElementById("navHeader");
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
+ document.getElementById("content-area").innerHTML=aboutMe;
 }
  
 
