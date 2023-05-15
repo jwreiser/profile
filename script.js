@@ -39,32 +39,6 @@ window.onload=function(){
  header= document.getElementById("navHeader");
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
-  
-  console.log('a');
-  console.log(document.getElementById("content-area").innerHTML);   
-   console.log('b');
-  document.getElementById('about-me').style.visibility = 'visible'
-   console.log('c');
-  document.getElementById("content-area").innerHTML=document.getElementById("about-me").innerHTML;
-  document.getElementById("about-me").style.visibility='hidden';
-  
-console.log('a');
-   console.log(document.getElementById("content-area").innerHTML);   
-  console.log('a0');
-  console.log(document.getElementById("about-me").innerHTML);
-   console.log('a1');
-  console.log(document.getElementById("skills").innerHTML);
-   console.log('a2');
-    console.log(document.getElementById("projects").innerHTML);
-   console.log('a3');
-    console.log(document.getElementById("certifications").innerHTML);
-   console.log('a4');
-  console.log(document.getElementById("recommendations").innerHTML);
-   console.log('a5');
-  console.log(document.getElementById("contact").innerHTML);
-      console.log('a6');
-  
-
 }
  
 
@@ -79,18 +53,12 @@ function scrollHeader() {
 
 var totalScroll=0;
 function extraScroll(elementId) {
-      alert(document.getElementById("certifications").innerHTML);
-  alert(document.getElementById("about-me").innerHTML);
+  alert('a')
+  document.getElementById(elementId).style.visibility = 'visible'
+  document.getElementById("content-area").innerHTML=document.getElementById("about-me").innerHTML;
+  document.getElementById(elementId).style.visibility='hidden';
+
   
     var targetElement=document.getElementById(elementId);
     //targetElement.style.top=targetElement.style.top+scrollSize;
-    var contentArea=document.getElementById("content-area");  
-    var element = document.createElement("div");
-    element.innerHTML=targetElement.innerHTML;
-    element.id='currentContent';
- console.log('t ' + targetElement.innerHTML);
-    console.log('c '+contentArea.innerHTML);
-   contentArea.appendChild(element);
-   
-//    contentArea.innerHTML=targetElement.innerHTML;
-  }
+}
