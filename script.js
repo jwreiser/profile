@@ -20,16 +20,15 @@ window.onload=function(){
 function scrollHeader() {
   if (window.pageYOffset > stickyLimit) {
     var location=window.scrollY + window.innerHeight;
-   console.log('location '+location);
-   console.log('bottom '+document.getElementById('navHeader').style.bottom);
-   document.getElementById('navHeader').style.bottom=location+'px';
-   document.getElementById('navHeader').style.position='absolute';
-   document.getElementById('navHeader').style.top='auto';
+    //var newElement=document.createElement("div");
+   document.getElementById('navFooter').style.visibility='visible';
   } else {
+   /*
     document.getElementById('navHeader').style.top=0;
    document.getElementById('navHeader').style.bottom='auto';
    document.getElementById('navHeader').style.position='fixed';
-   
+   */
+   document.getElementById('navFooter').style.visibility='hidden';
   }  
 }
 
