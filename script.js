@@ -19,11 +19,11 @@ function addRecommendation() {
 }
 
 function showPopup(bool) {
-  if (bool) {
+//  if (bool) {
     document.getElementById('popup').style.visibility = 'visible'
-  } else {
+  /*} else {
     document.getElementById('popup').style.visibility = 'hidden'
-  }
+  }*/
 }
 
 // When the user scrolls the page, execute myFunction
