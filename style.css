@@ -33,10 +33,6 @@ button:hover {
     cursor: pointer;
   }
 
-/* footer */
-#navFooter{
-    position:absolute;
-}
   /* Navigation Bar */
  
   nav{
@@ -74,10 +70,10 @@ button:hover {
   }
   /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-    position: absolute;
-    bottom: 0;
-    width: 100%
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
   #nav-table {
     background-color:  black;   
     width: 100%;
