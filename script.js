@@ -51,7 +51,7 @@ function scrollHeader() {
   }
 }
 
-var aboutMe='a';
+var aboutMe='\<section id="about-me" class="about-container"\> \</section\>';
 /*
       \<div id="about-image"\>
         \<img src="https://res.cloudinary.com/da81thphx/image/upload/v1683979645/profile_nn5wab.gif" class="profile_image"/\>
@@ -66,7 +66,6 @@ var aboutMe='a';
             I am a back-end centric java developer with experience in Spring, Spring Boot, Spring MVC, Spring Data and hibernate. I am looking to leverage my skills to help people.
           </p\>
       \</div\>
-    \</section\>';
     */
 var totalScroll=0;
 function extraScroll(elementId) {
