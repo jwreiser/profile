@@ -40,25 +40,11 @@ window.onload=function(){
  stickyLimit = header.offsetTop;
  scrollSize=header.offsetHeight;
   
+  console.log('a');
   console.log(document.getElementById("content-area").innerHTML);   
-  console.log('b');
-  console.log(document.getElementById("about-me").innerHTML);
-   console.log('b1');
-  console.log(document.getElementById("skills").innerHTML);
-   console.log('b2');
-    console.log(document.getElementById("projects").innerHTML);
-   console.log('b3');
-    console.log(document.getElementById("certifications").innerHTML);
-   console.log('b4');
-  console.log(document.getElementById("recommendations").innerHTML);
-   console.log('b5');
-  console.log(document.getElementById("contact").innerHTML);
-     
-   console.log('e');
-  document.getElementById("about-me").style.visibility='hidden';
-   console.log('f');
+   console.log('b');
   document.getElementById('about-me').style.visibility = 'visible'
-   console.log('g');
+   console.log('c');
   document.getElementById("content-area").innerHTML=document.getElementById("about-me").innerHTML;
   document.getElementById("about-me").style.visibility='hidden';
   
