@@ -155,9 +155,6 @@ button:hover {
   }
   
   /* Skills */
-  #skills{
-      visibility:hidden;
-}
    .all_skills {
     display: flex;
     flex-direction: row;
@@ -200,9 +197,6 @@ button:hover {
 
   
   /* Projects */
-  #projects{
-      visibility:hidden;
-}
   .projects-container {
     margin-top: 30px;
     margin-left: 60px;
@@ -230,9 +224,6 @@ button:hover {
   }   
   
   /*certifications*/
-  #certifications{
-       visibility:hidden;
-}
   .all_certifications {
       display: flex;
       flex-direction: row;
@@ -260,9 +251,6 @@ button:hover {
     }
     
   /* Projects */
-  #projects{
-       visibility:hidden;
-}
   .projects-container {
     margin-top: 30px;
     margin-left: 60px;
@@ -309,9 +297,6 @@ button:hover {
     }
     
   /* Recommendations */
-#recommendations{
-     visibility:hidden;
-}
   .all_recommendations {
     display: flex;
     align-items: center;
