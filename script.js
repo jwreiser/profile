@@ -145,7 +145,7 @@ var certifications=`
       </section>`;
 var projects=`
   <section class="projects" id="projects">
-      <h2>
+      <h2 id="projectHeader">
         Projects
       </h2>
       <div style="clear:both;"></div>
