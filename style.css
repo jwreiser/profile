@@ -23,6 +23,17 @@ button:hover {
     width:100%;
     background-color:yellow;
 }
+
+#topTable tr{
+    width:100%;
+    background-color:green;
+}
+
+
+#topTable td{
+    width:100%;
+    background-color:red;
+}
 /*determines width of blue banner*/
   #home {
     background-color: #33aacc;   
