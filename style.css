@@ -87,9 +87,13 @@ button:hover {
   }
 */
 /* header */
+#navDivr{
+       background-color:  purple;   
+ width: 100%;
+}
 #navHeader{
        background-color:  orange;   
- 
+ width: 100%;
 }
   #navTable {
     background-color:  black;   
