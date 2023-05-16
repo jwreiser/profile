@@ -196,11 +196,11 @@ button:hover {
   
   
   .project-card {
-    margin: 15 25px 15px 25px;
-    padding: 5px;
+    margin: 150px 25px 15px 25px;
+    padding: 225px;
      font-size: 25px;
     border: 1px solid lightgray;
-     border-radius: 2%;  
+     border-radius: 2%; 
   }
     
   .project-card li {
