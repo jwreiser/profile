@@ -154,31 +154,37 @@ var projects=`
           <div class="project-card">
             <h3>Neural Network Visualizer</h3>
             <ul>
-              <li>Created pair of programs that use NEURON to simulate large neural networks. First program uses Java to generate a hoc program (NEURON's native language) using easy-to-understand input files that allow users not familiar with hoc to model neural networks. Second program uses C++/OpenGL to visualize how the neurons modeled in the previously mentioned program fire.</li>
+              <li>Created pair of programs that use NEURON to simulate large neural networks.</li>
+               <li>First program uses Java to generate a hoc program (NEURON's native language) using easy-to-understand input files that allow users not familiar with hoc to model neural networks.</li>
+               <li>Second program uses C++/OpenGL to visualize how the neurons modeled in the previously mentioned program fire.</li>
             </ul>
           </div>
           <div class="project-card">
             <h3>Web Search Optimizer</h3>
             <ul>
-              <li>Created program that allows users to simultaneously search several websites. Program concurrently visits individual websites and aggregates search results. Results are filtered and prioritized according to user input, allowing users to more efficiently parse search results.</li>
+              <li>Created program that allows users to simultaneously search several websites.</li>
+              <li>Program concurrently visits individual websites and aggregates search results.</li> 
+              <li>Results are filtered and prioritized according to user input, allowing users to more efficiently parse search results.</li>
             </ul>
           </div>
           <div class="project-card">
             <h3>Scrapbook Builder</h3>
             <ul>
-              <li>Created a tool to upload images to a website and then automatically display them</li>
+              <li>Created a visual basic tool to upload images to a server</li>
+              <li>This tool also generated the scrapbook HTML and uploaded to the server as well</li>
             </ul>
           </div>
           <div class="project-card">
             <h3>Tetris Clone</h3>
             <ul>
-              <li>Developed a Tetris Clone using C++</li>
+              <li>Developed a Tetris Clone</li>
+              <li>This clone expanded the game play by allowing for additional move preview making the game more strategic</li>
             </ul>
           </div>
           <div class="project-card">
             <h3>Instant Messenger</h3>
             <ul>
-              <li>Developed an application for message sending</li>
+              <li>Developed an application for message sending using C++</li>
             </ul>
           </div>
     </div>
