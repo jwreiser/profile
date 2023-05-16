@@ -19,6 +19,10 @@ button:hover {
   }
 
   /* details about me */ 
+#topTable{
+    width:100%;
+    color:yellow;
+}
 /*determines width of blue banner*/
   #home {
     background-color: #33aacc;   
