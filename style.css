@@ -190,6 +190,10 @@ button:hover {
 
   
   /* Projects */
+#projects{
+    width:100;
+        background-color:yellow;
+}
 #projectHeader{
     width:100;
         background-color:red;
