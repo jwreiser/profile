@@ -83,7 +83,8 @@ button:hover {
 
 .row2 {
     margin-top: 0.5%;
-    //overflow: hidden;
+    overflow: hidden;
+     line-height: 1em;
 }
 
 
