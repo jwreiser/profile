@@ -22,8 +22,9 @@ button:hover {
   nav{
     background-color:  #33aacc;       
   }
+/*determines width of blue banner*/
   #home {
-    background-color: red; /*#33aacc;   */
+    background-color: #33aacc;   
   padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
@@ -31,8 +32,7 @@ button:hover {
     padding-top: 2cm;
     padding-bottom: 2cm;
     height: 5mm;
-    width: 100%;
-    /*display: contents;*/
+    width: fit-content;
    }
 
   .profile_name {
@@ -67,7 +67,6 @@ button:hover {
   
   .topmenu:hover {
     color: white;
-    /* Add the styles here */
   }
   
   #topdiv {
