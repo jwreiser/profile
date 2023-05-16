@@ -191,7 +191,6 @@ button:hover {
   
   /* Projects */
 
-
   .projects-container {
     margin-top: 30px;
        width:100;
@@ -244,13 +243,17 @@ button:hover {
 
   /* Social */
 
-
+.social-container{
+    margin-left:10%;
+}
     .social-card {
-        margin: 15px 150px 15px 0px;
+        margin-left:10%;
+        margin-right:10%;
+        margin-top:10%;        
         border-radius: 25px;
         border: 1px solid cadetblue;
-        width:fit-content;
       font-size: 15px;
+        padding:4%;
     } 
 
   /* Recommendations */
