@@ -32,7 +32,8 @@ button:hover {
     padding-top: 2cm;
     padding-bottom: 2cm;
     height: 5mm;
-    width: fit-content;
+    width: 100%;
+     /*fit-content blue too big*/
    }
 
   .profile_name {
