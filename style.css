@@ -285,6 +285,7 @@ button:hover {
               border-radius: 2%;
                 */
     border: 1px solid cadetblue;
+        width:fit-content;
 
 
     } 
