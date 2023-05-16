@@ -204,6 +204,7 @@ button:hover {
   .project-card {
     margin: 0 15px 15px 30px;
     padding-bottom: 5px;
+    padding-right: 5px;
   }
   
   .project-card h3 {
@@ -272,7 +273,6 @@ button:hover {
 
     .social-card {
         margin: 15 150px 15px 0px;
-        padding: 2px 15px 2px 15pc;
         border-radius: 25px;
         border: 1px solid cadetblue;
         width:fit-content;
