@@ -270,18 +270,13 @@ button:hover {
   /* Social */
   #social{
       margin-top: 30px;
-      margin-left: 60px;
     }
 
-  .social-container {
-      margin-top: 30px;
-      margin-left: 60px;
-    }
 
     .social-card {
         margin: 0 15px 15px 30px;
-        padding: 5px;
-        border-radius: 2%;
+        padding: 15px;
+        border-radius: 25px;
         border: 1px solid cadetblue;
         width:fit-content;
 
