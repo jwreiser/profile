@@ -80,7 +80,8 @@ button:hover {
  width: 100%;
 }
 #navHeader{
-       background-color:  : #33aacc;   
+       background-color: orange;
+           /*: #33aacc;   */
  width: 100%;
 }
   #navTable {
