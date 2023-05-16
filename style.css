@@ -21,20 +21,6 @@ button:hover {
   /* details about me */ 
 
 /*determines width of blue banner*/
-/*
-  #home {
-    background-color: #33aacc;   
-  padding-bottom: 1cm;
-    margin-left:-1cm;
-    margin-right:-1cm;
-    margin-top:-1cm;
-    padding-top: 2cm;
-    padding-bottom: 2cm;
-    height: 5mm;
-    //width: 100%;
-}
-*/ 
-
   .profile_name {
     float: left;
     padding-left: 2cm;
@@ -73,12 +59,8 @@ button:hover {
       width: 100%;
    
   }
-*/
+
 /* header */
-#navDivr{
-       background-color:  purple;   
- width: 100%;
-}
 #navHeader{
        background-color: #33aacd;
            /*: #33aacc;   */
