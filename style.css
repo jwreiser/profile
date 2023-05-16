@@ -21,7 +21,7 @@ button:hover {
   /* details about me */ 
 #topTable{
     width:100%;
-    color:yellow;
+    background-color:yellow;
 }
 /*determines width of blue banner*/
   #home {
