@@ -82,8 +82,8 @@ button:hover {
 }
 
 .row2 {
-    line-height:1em;
-    padding-top: 0.4%;
+    margin-top: 0.5%;
+    //overflow: hidden;
 }
 
 
