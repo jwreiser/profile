@@ -190,7 +190,7 @@ button:hover {
 
   
   /* Projects */
-#projects{
+#projectHeaader{
     text-align:center;
 }
   .projects-container {
@@ -204,6 +204,7 @@ button:hover {
     margin-left:20%;
     margin-right:20%;
     padding: 15x 255px 15px 255px;
+      padding right:5%
      font-size: 25px;
     border: 1px solid lightgray;
      border-radius: 2%; 
