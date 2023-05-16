@@ -190,16 +190,20 @@ button:hover {
 
   
   /* Projects */
+#projects h2{
+    text-align:center;
+}
   .projects-container {
     margin-top: 30px;
+      
   }
   
   
   .project-card {
     margin-top:30px;
-    margin-left:30%;
-    margin-right:30%;
-    padding: 15x 55px 15px 55px;
+    margin-left:20%;
+    margin-right:20%;
+    padding: 15x 255px 15px 255px;
      font-size: 25px;
     border: 1px solid lightgray;
      border-radius: 2%; 
