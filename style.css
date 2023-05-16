@@ -19,22 +19,9 @@ button:hover {
   }
 
   /* details about me */ 
-#topTable{
-    width:100%;
-    background-color:yellow;
-}
 
-#topTable tr{
-    width:100%;
-    background-color:green;
-}
-
-
-#topTable td{
-    width:100%;
-    background-color:red;
-}
 /*determines width of blue banner*/
+/*
   #home {
     background-color: #33aacc;   
   padding-bottom: 1cm;
@@ -46,6 +33,7 @@ button:hover {
     height: 5mm;
     //width: 100%;
 }
+*/ 
 /*
   .profile_name {
     float: left;
@@ -67,7 +55,7 @@ button:hover {
     margin-right: 10px;
     float:left;
   }
-  
+  */
   /* navigation */
   .topmenu {
     color: lightgray;
