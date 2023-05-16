@@ -254,6 +254,7 @@ button:hover {
         border: 1px solid cadetblue;
       font-size: 15px;
         padding:1%;
+        padding left:10%;
     } 
 
   /* Recommendations */
