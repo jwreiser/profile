@@ -192,17 +192,19 @@ button:hover {
   /* Projects */
 #projects{
     width:100;
-        background-color:yellow;
 }
+
+  .projects-container {
+    margin-top: 30px;
+       width:100;
+      background-color:orange;
+  }
 #projectHeader{
     width:100;
         background-color:red;
 }
 
-  .projects-container {
-    margin-top: 30px;
-      
-  }
+
   
   
   .project-card {
