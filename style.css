@@ -208,12 +208,10 @@ button:hover {
   
   
   .project-card {
-      /*
     margin-top:30px;
     margin-left:20%;
     margin-right:20%;
-      */
-      padding right:55%
+      padding right:50px;
      font-size: 25px;
     border: 1px solid lightgray;
      border-radius: 2%; 
