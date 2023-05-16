@@ -268,24 +268,16 @@ button:hover {
   }
 
   /* Social */
-  #social{
-      margin-top: 30px;
-    }
 
 
     .social-card {
-        margin: 30 15px 15px 0px;
+        margin: 300 15px 15px 0px;
         padding: 2px 15px 2px 15pc;
         border-radius: 25px;
         border: 1px solid cadetblue;
         width:fit-content;
-
-
-    } 
-    .social-card h3 {
       font-size: 15px;
-      margin-left: 30px;
-    }
+    } 
 
   /* Recommendations */
   .all_recommendations {
