@@ -147,6 +147,7 @@ button:hover {
     margin: 5px;
   }
   
+
   /* Skills */
    .all_skills {
     display: flex;
@@ -213,6 +214,7 @@ button:hover {
     margin-left: 30px;
   }
 
+
   /*certifications*/
   .all_certifications {
       display: flex;
@@ -241,8 +243,8 @@ button:hover {
     }
     
 
-  /* Social */
 
+  /* Social */
 .social-container{
     margin-left:10%;
 }
@@ -253,8 +255,10 @@ button:hover {
         border-radius: 25px;
         border: 1px solid cadetblue;
       font-size: 15px;
-        padding left:10%;
+        padding-left:4%;
     } 
+
+
 
   /* Recommendations */
   .all_recommendations {
