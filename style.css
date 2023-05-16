@@ -17,11 +17,10 @@ button:hover {
     text-align: center;
     cursor: pointer;
   }
-  /* details about me */
- 
+
+  /* details about me */ 
   nav{
-    background-color:  #33aacc;   
-    
+    background-color:  #33aacc;       
   }
   #home {
     background-color: red; /*#33aacc;   */
@@ -32,7 +31,7 @@ button:hover {
     padding-top: 2cm;
     padding-bottom: 2cm;
     height: 5mm;
-      width:display-contents;
+    width: 100%;
     /*display: contents;*/
    }
 
