@@ -148,6 +148,7 @@ var projects=`
       <h2 id="projectHeader">
         Projects
       </h2>
+           <div style="clear:both;"></div>
         <div id="projects-container" class="projects-container">
           <div class="project-card">
             <h3>Neural Network Visualizer</h3>
