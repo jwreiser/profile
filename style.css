@@ -63,6 +63,8 @@ button:hover {
   
   .topmenu:hover {
     color: white;
+     font-weight:bolder;
+     text-decoration:underline;
   }
   
   #topdiv {
